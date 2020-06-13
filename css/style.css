@@ -50,6 +50,11 @@ img {
   top: 0px;
   padding: 0 30px;
   z-index: 999;
+  transition: 0.5s;
+}
+
+.navbar.top {
+  background: transparent;
 }
 
 .navbar a {
@@ -240,7 +245,8 @@ img {
     flex-direction: column;
   }
 
-  .flex-columns .column, .flex-grid .column {
+  .flex-columns .column,
+  .flex-grid .column {
     flex: 100%;
     max-width: 100%;
   }
@@ -249,4 +255,3 @@ img {
     width: 70%;
   }
 }
-
